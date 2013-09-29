@@ -39,7 +39,13 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.clj">
+    <Compile Include="csv.clj">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datatable.clj">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mssql.clj">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
